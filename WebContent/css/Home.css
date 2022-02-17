@@ -4,18 +4,21 @@ body
 {
     font-family:'Times New Roman', Times, serif;
     background :linear-gradient(to bottom,#99FFCC 0%,#6699FF 100%);
-    height : 100vh; 
+    height : auto; 
+    position:absolute;
 
 }
 .center
 {
 	margin: 0;
-    padding: 100px 450px;
+    padding: 100px 600px;
+    position:absolute;
 }
  .center h1
 {
 	text-align:center;
-    border-bottom : 1px solid silver;
+    border : 1px solid silver;
+    position:absolute;
 }
 
 .button {
