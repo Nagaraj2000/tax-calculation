@@ -40,11 +40,12 @@ session.setAttribute("taxValue",tax);
 
 try
 {
-	
+	 
 
 	Class.forName("com.mysql.jdbc.Driver");  
-	Connection con=DriverManager.getConnection(  
-	"jdbc:mysql://localhost:3306/tax_db","root","Nagaraj@26"); 
+	Connection con=DriverManager.getConnection("jdbc:mysql://localhost:3306/tax_db","root","Nagaraj@26"); 
+	
+	
  
  PreparedStatement s=con.prepareStatement("insert into citizen values(?,?,?,?,?)");
  

@@ -43,7 +43,7 @@ try
 	 
 
 	Class.forName("com.mysql.jdbc.Driver");  
-	Connection con=DriverManager.getConnection("jdbc:mysql://localhost:3306/tax_db","root","Nagaraj@26"); 
+	Connection con=DriverManager.getConnection("jdbc:mysql://aws-db.coydvrnzy65u.ap-south-1.rds.amazonaws.com:3306/tax-db","admin","Monika2022"); 
 	
 	
  
